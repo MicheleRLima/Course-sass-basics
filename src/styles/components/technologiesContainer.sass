@@ -9,6 +9,9 @@
     display: flex
     flex-wrap: wrap
     gap: 1.5rem
+    @include mixins.mobile
+      flex-direction: column
+      align-items: center
 
     .technology-card
       @include mixins.center
@@ -17,10 +20,16 @@
       border: 1px solid #333
       width: 45%
       border-radius: variables.$card-border-radius
+      @include mixins.mobile
+        width: 100%
+        padding: 0.5rem
+      
 
       h3
         color: variables.$text-color
         margin-bottom: 1rem
+        @include mixins.mobile
+          font-size: 1rem
 
       svg
         font-size: 6rem
@@ -48,3 +57,9 @@
 
     #sass
       color: #C76494
+
+    #vue
+      color: green
+
+    #github
+      color: #ccc

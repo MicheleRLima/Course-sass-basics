@@ -10,14 +10,16 @@ function SideBar() {
   return (
     <aside id='sidebar'>
       <img src={avatar} alt='avatar' />
-      <p className='title'>Desenvolvedora</p>
+      <p className='title'>Desenvolvedora full stack júnior</p>
       <SocialNetworks />
       <InformationContainer />
       <a
-        href='https://www.linkedin.com/in/michele-lima-91770130/'
+        href='https://drive.google.com/file/d/1R0Ux4ea3J-tWjOJIoHdseywEz9OXvvsg/view?usp=sharing'
         className='btn'
+        target='_blank'
+        rel='noreferrer'
       >
-        Download CV
+        Ver Currículo
       </a>
     </aside>
   );

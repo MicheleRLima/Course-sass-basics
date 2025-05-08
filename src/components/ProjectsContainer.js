@@ -5,12 +5,12 @@ function ProjectsContainer() {
     <section id='projects-container'>
       <h2>Projetos</h2>
       <p>
-        Laboris ipsum incididunt minim occaecat do enim cillum eiusmod nulla
-        irure do consequat ut. Do tempor proident et esse qui ex. Incididunt sit
-        magna mollit ea enim aliquip laboris qui qui officia qui ex pariatur.
-        Adipisicing elit aliqua aliquip aute esse. Exercitation do ad ullamco
-        aliquip tempor excepteur velit elit nostrud consectetur. Proident
-        officia enim enim Lorem et irure.
+        Engajada em aprender e desenvolver projetos, busco sempre
+        aprimorar minhas habilidades e conhecimentos. Aqui estão alguns dos
+        projetos que desenvolvi e que estão disponíveis no meu GitHub. Sinta-se
+        à vontade para explorar e conferir meu trabalho. Estou sempre aberta a
+        feedbacks e sugestões. Se você tiver alguma dúvida ou quiser discutir um
+        projeto, sinta-se livre para entrar em contato.
       </p>
       <a
         href='https://github.com/MicheleRLima'

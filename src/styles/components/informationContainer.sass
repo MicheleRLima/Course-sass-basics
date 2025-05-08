@@ -11,6 +11,13 @@
   width: 80%
   border-radius: variables.$card-border-radius
 
+  h2
+    color: variables.$text-color-secondary
+    font-size: 1.5rem
+    margin: 1.5rem 0
+    @include mixins.mobile
+      font-size: 1rem
+
   .info-card
     @include mixins.center
     justify-content: start
@@ -24,10 +31,14 @@
       color: variables.$text-color-secondary
       font-size: 0.8rem
       margin-bottom: 0.5rem
+      @include mixins.mobile
+        font-size: 0.9rem
 
     p
       color: variables.$text-color-secondary
       font-weight: bold
+      @include mixins.mobile
+        font-size: 0.8rem
 
     svg
       background-color: variables.$bg-color
@@ -35,6 +46,9 @@
       width: 2rem
       height: 2rem
       border-radius: variables.$card-border-radius
+      @include mixins.mobile
+        width: 1.8rem
+        height: auto
 
     #phone-icon
       color: #e93b81
